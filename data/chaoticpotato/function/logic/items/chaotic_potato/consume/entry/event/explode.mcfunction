@@ -1,0 +1,3 @@
+## chaotic_potato - consume/entries - event/explode
+summon minecraft:creeper ~ ~ ~ {Fuse:0,ExplosionRadius:5,CustomName:'[{"text":"a ","color":"white","italic":false},{"text":"Cha","color":"aqua"},{"text":"ot","color":"aqua","obfuscated":true},{"text":"ic Po","color":"aqua"},{"text":"t","color":"aqua","obfuscated":true},{"text":"at","color":"aqua"},{"text":"o","color":"aqua","obfuscated":true}]'}
+execute at @s positioned ~ ~1.0 ~ run playsound minecraft:entity.illusioner.prepare_blindness player @a ~ ~ ~ 0.5 1.1

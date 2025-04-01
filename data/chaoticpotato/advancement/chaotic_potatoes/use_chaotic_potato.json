@@ -1,0 +1,58 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/root",
+  "display": {
+    "icon": {
+	  "id": "minecraft:baked_potato",
+	  "count": 1,
+	  "components": {
+		"minecraft:enchantment_glint_override": true
+	  }
+	},
+	"title": [
+	  [{"text":"Infinite Potality"}]
+	],
+	"description": [
+	  [
+	    {"text":"Experience a ","color":"gray"},
+	    {"text":"","italic":false,"obfuscated":false},{"text":"Cha","color":"aqua"},{"text":"ot","color":"aqua","obfuscated":true},{"text":"ic Po","color":"aqua"},{"text":"t","color":"aqua","obfuscated":true},{"text":"at","color":"aqua"},{"text":"o","color":"aqua","obfuscated":true},
+	    {"text":".","color":"gray"}
+	  ]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"consumed": {
+	  "trigger": "minecraft:consume_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+			"minecraft:poisonous_potato"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "chaotic_potato"
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"opened": {
+	  "trigger": "minecraft:impossible"
+	}
+  },
+  "requirements": [
+    [
+	  "consumed",
+	  "opened"
+	]
+  ],
+  "rewards": {
+    "function": "chaoticpotato:logic/advancements/chaotic_potatoes/use_chaotic_potato"
+  }
+}

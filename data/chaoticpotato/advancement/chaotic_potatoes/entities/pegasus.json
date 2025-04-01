@@ -1,0 +1,42 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/entities/oceloot",
+  "display": {
+    "icon": {
+	  "id": "minecraft:feather",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"Lightning Pace"}]
+	],
+	"description": [
+	  [
+	    {"text":"Mount a ","color":"gray"},
+	    {"text":"Pegasus","color":"yellow"},
+	    {"text":".","color":"gray"}
+	  ]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"mount": {
+	  "trigger": "minecraft:started_riding",
+	  "conditions": {
+		"player": {
+		  "vehicle": {
+			"type": "minecraft:horse",
+			"nbt": "{Tags:[\"cp.e.pegasus\"]}"
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "mount"
+	]
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/root",
+  "criteria": {
+    "take_hit": {
+      "trigger": "minecraft:entity_hurt_player",
+	  "conditions": {
+		"damage": {
+		  "blocked": false,
+		  "type": {
+			"is_direct": true,
+			"tags": [
+			  {
+				"id": "chaoticpotato:items/the_perfect_trade/damage",
+				"expected": true
+			  }
+			]
+		  },
+		  "source_entity": {
+		    "type": "#chaoticpotato:items/the_perfect_trade/allow",
+		    "equipment": {
+			  "mainhand": {
+			    "items": [
+				  "minecraft:wooden_sword"
+				],
+				"predicates": {
+				  "minecraft:custom_data": {
+				    "chaoticpotato_item": {
+					  "id": "the_perfect_trade"
+					}
+				  }
+				}
+			  }
+			}
+		  }
+		}
+	  }
+    }
+  },
+  "requirements": [
+    [
+      "take_hit"
+    ]
+  ],
+  "rewards": {
+	"function": "chaoticpotato:logic/items/the_perfect_trade/take_hit"
+  }
+}

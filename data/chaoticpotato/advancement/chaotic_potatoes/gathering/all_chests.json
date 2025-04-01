@@ -1,0 +1,63 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/gathering/all_tool_items",
+  "display": {
+    "icon": {
+	  "id": "minecraft:chest",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"Chestastic"}]
+	],
+	"description": [
+	  [
+	    {"text":"Open all the different ","color":"gray"},
+	    {"text":"Chests","color":"light_purple"},
+		{"text":".","color":"gray"}
+	  ]
+	],
+	"frame": "challenge",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"empty": {
+	  "trigger": "minecraft:player_generates_container_loot",
+	  "conditions":	{
+		"loot_table": "chaoticpotato:chests/empty_chest"
+	  }
+	},
+	"meme": {
+	  "trigger": "minecraft:player_generates_container_loot",
+	  "conditions":	{
+		"loot_table": "chaoticpotato:chests/meme_chest"
+	  }
+	},
+	"mimic": {
+	  "trigger": "minecraft:player_generates_container_loot",
+	  "conditions":	{
+		"loot_table": "chaoticpotato:chests/mimic_chest"
+	  }
+	},
+	"starter": {
+	  "trigger": "minecraft:player_generates_container_loot",
+	  "conditions":	{
+		"loot_table": "chaoticpotato:chests/starter_chest"
+	  }
+	},
+	"trapped": {
+	  "trigger": "minecraft:player_generates_container_loot",
+	  "conditions":	{
+		"loot_table": "chaoticpotato:chests/trapped_chest"
+	  }
+	}
+  },
+  "requirements": [
+    [ "empty" ],
+    [ "meme" ],
+    [ "mimic" ],
+    [ "starter" ],
+    [ "trapped" ]
+  ]
+}

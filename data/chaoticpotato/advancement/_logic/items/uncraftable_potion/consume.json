@@ -1,0 +1,31 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/root",
+  "criteria": {
+	"use": {
+	  "trigger": "minecraft:consume_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+		    "minecraft:potion"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "uncraftable_potion"
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "use"
+	]
+  ],
+  "rewards": {
+    "function": "chaoticpotato:logic/items/uncraftable_potion/_m"
+  }
+}

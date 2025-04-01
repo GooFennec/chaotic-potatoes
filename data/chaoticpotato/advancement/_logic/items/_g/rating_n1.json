@@ -1,0 +1,30 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/root",
+  "criteria": {
+	"has": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+	    "items": [
+		  {
+		    "predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "rating": -1
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "has"
+	]
+  ],
+  "rewards": {
+    "function": "chaoticpotato:logic/items/_g/cmd/rating/n1"
+  }
+}

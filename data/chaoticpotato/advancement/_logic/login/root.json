@@ -1,0 +1,8 @@
+{
+  "sends_telemetry_event": false,
+  "criteria": {
+	"login": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

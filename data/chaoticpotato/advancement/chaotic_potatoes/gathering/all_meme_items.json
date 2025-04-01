@@ -1,0 +1,288 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/gathering/root",
+  "display": {
+    "icon": {
+	  "id": "minecraft:melon_slice",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"Comedic Antics"}]
+	],
+	"description": [
+	  [
+	    {"text":"Obtain all the different ","color":"gray"},
+	    {"text":"Meme","color":"light_purple"},
+		{"text":" items.","color":"gray"}
+	  ]
+	],
+	"frame": "challenge",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"bruh_stick": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:stick"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "bruh_stick"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"cold_one": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:potion"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "cold_one"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"dwight_beet": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:beetroot"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "dwight_beet"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"hawk_favorite_item": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:stone_button"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "hawk_favorite_item"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"isidon": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:potato"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "isidon"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"judy_hopp_carrot": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:carrot"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "judy_hopp_carrot"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"kick_hider_pearl": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:ender_pearl"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "kick_hider_pearl"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"pondering_orb": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:snowball"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "pondering_orb"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"red_among_us": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:red_concrete"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "red_among_us"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"stanley_bucket": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:bucket"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "stanley_bucket"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"the_god_fungus": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:red_mushroom"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "the_god_fungus"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"the_green": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:lime_concrete_powder"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "the_green"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"you_egg": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:egg"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "you_egg"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	}
+  },
+  "requirements": [
+    [ "bruh_stick" ],
+	[ "cold_one" ],
+	[ "dwight_beet" ],
+	[ "hawk_favorite_item" ],
+	[ "isidon" ],
+	[ "judy_hopp_carrot" ],
+	[ "kick_hider_pearl" ],
+	[ "pondering_orb" ],
+	[ "red_among_us" ],
+	[ "stanley_bucket" ],
+	[ "the_god_fungus" ],
+	[ "the_green" ],
+	[ "you_egg" ]
+  ]
+}

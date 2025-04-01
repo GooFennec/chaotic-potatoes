@@ -1,0 +1,30 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/players/notify/root",
+  "display": {
+    "icon": {
+	  "id": "minecraft:raw_iron",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"New Resource(s) Discovered!"}]
+	],
+	"description": [
+	  [{"text":"null","color":"gray"}]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": false,
+	"hidden": true
+  },
+  "criteria": {
+	"obtain": {
+	  "trigger": "minecraft:impossible"
+	}
+  },
+  "requirements": [
+    [
+	  "obtain"
+	]
+  ]
+}

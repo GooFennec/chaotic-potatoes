@@ -1,0 +1,30 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/players/notify/root",
+  "display": {
+    "icon": {
+	  "id": "minecraft:knowledge_book",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"New Recipe(s) Unlocked!"}]
+	],
+	"description": [
+	  [{"text":"null","color":"gray"}]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": false,
+	"hidden": true
+  },
+  "criteria": {
+	"obtain": {
+	  "trigger": "minecraft:impossible"
+	}
+  },
+  "requirements": [
+    [
+	  "obtain"
+	]
+  ]
+}

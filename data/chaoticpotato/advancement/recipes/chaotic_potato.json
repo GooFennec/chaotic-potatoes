@@ -1,0 +1,53 @@
+{
+  "parent": "minecraft:recipes/root",
+  "sends_telemetry_event": false,
+  "criteria": {
+	"get_chaoticpotato": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+	    "items": [
+          {
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "chaotic_potato"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"get_otheritems": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+	    "items": [
+		  {
+			"items": [
+			  "minecraft:amethyst_shard",
+			  "minecraft:quartz"
+			]
+		  }
+        ]
+	  }
+	},
+	"has_the_recipe": {
+	  "trigger": "minecraft:recipe_unlocked",
+	  "conditions": {
+		"recipe": "chaoticpotato:chaotic_potato"
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "get_chaoticpotato",
+	  "get_otheritems",
+	  "has_the_recipe"
+	]
+  ],
+  "rewards": {
+	"recipes": [
+	  "chaoticpotato:chaotic_potato"
+	]
+  }
+}

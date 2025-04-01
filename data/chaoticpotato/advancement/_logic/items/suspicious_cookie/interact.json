@@ -1,0 +1,31 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/root",
+  "criteria": {
+	"interact": {
+	  "trigger": "minecraft:using_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+		    "minecraft:cookie"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "suspicious_cookie"
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "interact"
+	]
+  ],
+  "rewards": {
+    "function": "chaoticpotato:logic/items/suspicious_cookie/interact"
+  }
+}

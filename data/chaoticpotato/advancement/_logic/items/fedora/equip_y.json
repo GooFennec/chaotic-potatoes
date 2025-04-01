@@ -1,0 +1,32 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/root",
+  "criteria": {
+	"equip": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+	    "player": [
+		  {
+		    "condition": "minecraft:reference",
+			"name": "chaoticpotato:items/fedora/equip"
+		  },
+		  {
+		    "condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+			  "cp.item.fedora.equip": 0
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "equip"
+	]
+  ],
+  "rewards": {
+    "function": "chaoticpotato:logic/items/fedora/has/equip_y"
+  }
+}

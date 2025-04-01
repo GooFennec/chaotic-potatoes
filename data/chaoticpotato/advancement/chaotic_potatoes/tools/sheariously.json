@@ -1,0 +1,53 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/tools/root",
+  "display": {
+    "icon": {
+	  "id": "minecraft:shears",
+	  "count": 1,
+	  "components": {
+		"minecraft:enchantment_glint_override": true
+	  }
+	},
+	"title": [
+	  [{"text":"Quite Shearious"}]
+	],
+	"description": [
+	  [
+	    {"text":"Obtain ","color":"gray"},
+	    {"text":"Sheariously","color":"yellow"},
+		{"text":".","color":"gray"}
+	  ]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"get_item": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:shears"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "sheariously"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "get_item"
+	]
+  ]
+}

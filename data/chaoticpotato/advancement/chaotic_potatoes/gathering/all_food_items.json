@@ -1,0 +1,138 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/gathering/root",
+  "display": {
+    "icon": {
+	  "id": "minecraft:pumpkin_pie",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"Fancy Dining"}]
+	],
+	"description": [
+	  [
+	    {"text":"Consume all the different ","color":"gray"},
+	    {"text":"Food","color":"light_purple"},
+	    {"text":" and ","color":"gray"},
+	    {"text":"Drink","color":"light_purple"},
+		{"text":" like items.","color":"gray"}
+	  ]
+	],
+	"frame": "challenge",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"chaotic_potato": {
+	  "trigger": "minecraft:consume_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+			"minecraft:poisonous_potato"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "chaotic_potato"
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"cold_one": {
+	  "trigger": "minecraft:consume_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+		    "minecraft:potion"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "cold_one"
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"enchanted_golden_carrot": {
+	  "trigger": "minecraft:consume_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+		    "minecraft:golden_carrot"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "enchanted_golden_carrot"
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"safety_milk": {
+	  "trigger": "minecraft:consume_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+		    "minecraft:milk_bucket"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "safety_milk"
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"uncertain_potato": {
+	  "trigger": "minecraft:consume_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+			"minecraft:poisonous_potato"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "uncertain_potato"
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"uncraftable_potion": {
+	  "trigger": "minecraft:consume_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+		    "minecraft:potion"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "uncraftable_potion"
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+    [ "chaotic_potato" ],
+    [ "cold_one" ],
+    [ "enchanted_golden_carrot" ],
+    [ "safety_milk" ],
+    [ "uncertain_potato" ],
+    [ "uncraftable_potion" ]
+  ]
+}

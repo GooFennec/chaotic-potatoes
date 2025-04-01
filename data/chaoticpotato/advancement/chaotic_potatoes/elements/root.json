@@ -1,0 +1,46 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/use_chaotic_potato",
+  "display": {
+    "icon": {
+	  "id": "minecraft:glistering_melon_slice",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"Elements of Chaos"}]
+	],
+	"description": [
+	  [{"text":""}]
+	],
+	"frame": "task",
+	"show_toast": false,
+	"announce_to_chat": false,
+	"hidden": true
+  },
+  "criteria": {
+	"obtain": {
+	  "trigger": "minecraft:location",
+	  "conditions":	{
+	    "player": [
+		  {
+		    "condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+			    "type": "player",
+				"advancements": {
+				  "chaoticpotato:chaotic_potatoes/use_chaotic_potato": true
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "obtain"
+	]
+  ]
+}

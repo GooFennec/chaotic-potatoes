@@ -1,0 +1,31 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/root",
+  "criteria": {
+	"use": {
+	  "trigger": "minecraft:consume_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+			"minecraft:poisonous_potato"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "uncertain_potato"
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "use"
+	]
+  ],
+  "rewards": {
+    "function": "chaoticpotato:logic/items/uncertain_potato/_m"
+  }
+}

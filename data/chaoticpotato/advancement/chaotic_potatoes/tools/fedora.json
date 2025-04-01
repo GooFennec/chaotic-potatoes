@@ -1,0 +1,39 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/tools/sheariously",
+  "display": {
+    "icon": {
+	  "id": "minecraft:leather_helmet",
+	  "count": 1,
+	  "components": {
+		"minecraft:dyed_color": {
+		  "rgb": 16119285
+		}
+	  }
+	},
+	"title": [
+	  [{"text":"M'Lady"}]
+	],
+	"description": [
+	  [
+	    {"text":"Tip your ","color":"gray"},
+	    {"text":"Fedora","color":"yellow"},
+		{"text":".","color":"gray"}
+	  ]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"obtain": {
+	  "trigger": "minecraft:impossible"
+	}
+  },
+  "requirements": [
+    [
+	  "obtain"
+	]
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/tools/the_perfect_trade",
+  "display": {
+    "icon": {
+	  "id": "minecraft:tipped_arrow",
+	  "count": 1,
+	  "components": {
+		"minecraft:potion_contents": {
+		  "custom_color": 15925493
+		}
+	  }
+	},
+	"title": [
+	  [{"text":"Overstimulated"}]
+	],
+	"description": [
+	  [
+	    {"text":"Obtain an ","color":"gray"},
+	    {"text":"Arrow of Overdose","color":"yellow"},
+		{"text":".","color":"gray"}
+	  ]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"get_item": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:tipped_arrow"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "overdose_arrow"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "get_item"
+	]
+  ]
+}

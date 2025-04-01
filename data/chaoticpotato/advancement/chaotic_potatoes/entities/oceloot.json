@@ -1,0 +1,46 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/entities/magical_salmon",
+  "display": {
+    "icon": {
+	  "id": "minecraft:gold_ingot",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"Adorable, Lootable"}]
+	],
+	"description": [
+	  [
+	    {"text":"Kill an ","color":"gray"},
+	    {"text":"Oceloot","color":"yellow"},
+	    {"text":".","color":"gray"}
+	  ]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"slain_creature": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+	    "entity": [
+		  {
+		    "condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type": "minecraft:ocelot",
+			  "nbt": "{Tags:[\"cp.e.oceloot\"]}"
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "slain_creature"
+	]
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/gathering/root",
+  "display": {
+    "icon": {
+	  "id": "minecraft:golden_pickaxe",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"Bizarre Utensils"}]
+	],
+	"description": [
+	  [
+	    {"text":"Obtain all the different ","color":"gray"},
+	    {"text":"Tool","color":"light_purple"},
+	    {"text":" and ","color":"gray"},
+	    {"text":"Weapon","color":"light_purple"},
+		{"text":" like items.","color":"gray"}
+	  ]
+	],
+	"frame": "challenge",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"dice": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:player_head"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "dice"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"sheariously": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:shears"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "sheariously"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"stone_nommer": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:wooden_pickaxe"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "stone_nommer"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"the_perfect_trade": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:wooden_sword"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "the_perfect_trade"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"the_slap": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:wooden_shovel"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "the_slap"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	},
+	"uncertainty": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions":	{
+		"items": [
+          {
+            "items": [
+			  "minecraft:bow"
+			],
+			"predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {
+				  "id": "uncertainty"
+				}
+			  }
+			}
+          }
+        ]
+	  }
+	}
+  },
+  "requirements": [
+    [ "dice" ],
+    [ "sheariously" ],
+    [ "stone_nommer" ],
+    [ "the_perfect_trade" ],
+    [ "the_slap" ],
+    [ "uncertainty" ]
+  ]
+}

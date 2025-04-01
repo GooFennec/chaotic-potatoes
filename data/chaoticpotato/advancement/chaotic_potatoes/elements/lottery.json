@@ -1,0 +1,68 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/elements/root",
+  "display": {
+    "icon": {
+	  "id": "minecraft:diamond",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"Such Odds"}]
+	],
+	"description": [
+	  [
+	    {"text":"\"Win\" the ","color":"gray"},
+	    {"text":"Lottery","color":"yellow"},
+	    {"text":".","color":"gray"}
+	  ]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"attack": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+	    "entity": [
+		  {
+		    "condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type": "minecraft:interaction",
+			  "nbt": "{Tags:[\"cp.e.lottery\",\"cp.d.interact\"]}"
+			}
+		  }
+		],
+		"damage": {
+		  "blocked": false,
+		  "type": {
+		    "is_direct": true
+		  }
+		}
+	  }
+	},
+	"interact": {
+	  "trigger": "minecraft:player_interacted_with_entity",
+	  "conditions": {
+	    "entity": [
+		  {
+		    "condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type": "minecraft:interaction",
+			  "nbt": "{Tags:[\"cp.e.lottery\",\"cp.d.interact\"]}"
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "attack",
+	  "interact"
+	]
+  ]
+}

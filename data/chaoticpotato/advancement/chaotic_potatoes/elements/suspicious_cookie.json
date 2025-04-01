@@ -1,0 +1,48 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/elements/root",
+  "display": {
+    "icon": {
+	  "id": "minecraft:cookie",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"Wake and Bake"}]
+	],
+	"description": [
+	  [
+	    {"text":"Click a ","color":"gray"},
+	    {"text":"Suspicious Cookie","color":"yellow"},
+	    {"text":".","color":"gray"}
+	  ]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"obtain": {
+	  "trigger": "minecraft:using_item",
+	  "conditions":	{
+		"item": {
+		  "items": [
+		    "minecraft:cookie"
+		  ],
+		  "predicates": {
+		    "minecraft:custom_data": {
+			  "chaoticpotato_item": {
+			    "id": "suspicious_cookie"
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "obtain"
+	]
+  ]
+}

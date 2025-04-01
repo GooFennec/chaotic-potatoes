@@ -1,0 +1,25 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/root",
+  "criteria": {
+	"pass": {
+	  "trigger": "minecraft:tick",
+	  "conditions":	{
+	    "player": [
+		  {
+		    "condition": "minecraft:reference",
+			"name": "chaoticpotato:_g/in_water"
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "pass"
+	]
+  ],
+  "rewards": {
+    "function": "chaoticpotato:logic/players/flags/in_water/true"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:chaotic_potatoes/entities/bamboozler",
+  "display": {
+    "icon": {
+	  "id": "minecraft:sponge",
+	  "count": 1
+	},
+	"title": [
+	  [{"text":"Ohh S-"}]
+	],
+	"description": [
+	  [
+	    {"text":"Spot a ","color":"gray"},
+	    {"text":"Rat","color":"yellow"},
+	    {"text":".","color":"gray"}
+	  ]
+	],
+	"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+  },
+  "criteria": {
+	"attack_rat": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+	    "entity": [
+		  {
+		    "condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type": "minecraft:endermite",
+			  "nbt": "{Tags:[\"cp.e.rat\"]}"
+			}
+		  }
+		]
+	  }
+	},
+	"rat_attacked": {
+	  "trigger": "minecraft:entity_hurt_player",
+	  "conditions": {
+	    "damage": {
+		  "source_entity": {
+		    "type": "minecraft:endermite",
+			"nbt": "{Tags:[\"cp.e.rat\"]}"
+		  },
+		  "type": {
+		    "is_direct": true
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "attack_rat",
+	  "rat_attacked"
+	]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/root",
+  "criteria": {
+	"hi_there": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

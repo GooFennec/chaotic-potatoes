@@ -1,0 +1,18 @@
+{
+  "sends_telemetry_event": false,
+  "parent": "chaoticpotato:_logic/login/root",
+  "criteria": {
+	"exist": {
+	  "trigger": "minecraft:location",
+	  "conditions":	{}
+	}
+  },
+  "requirements": [
+    [
+	  "exist"
+	]
+  ],
+  "rewards": {
+    "function": "chaoticpotato:logic/login/_m"
+  }
+}

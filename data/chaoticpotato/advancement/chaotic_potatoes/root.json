@@ -1,0 +1,45 @@
+{
+  "sends_telemetry_event": false,
+  "display": {
+    "icon": {
+	  "id": "minecraft:poisonous_potato",
+	  "count": 1,
+	  "components": {
+		"minecraft:enchantment_glint_override": true,
+		"minecraft:item_model": "minecraft:potato"
+	  }
+	},
+	"title": [
+	  [{"text":"Chaotic Potatoes"}]
+	],
+	"description": [
+	  [{"text":"Potatoes with a touch of chaos.","color":"gray"}]
+	],
+	"frame": "task",
+	"background": "minecraft:textures/block/yellow_concrete_powder.png",
+	"show_toast": false,
+	"announce_to_chat": false,
+	"hidden": false
+  },
+  "criteria": {
+	"get_item": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+	    "items": [
+          {
+            "predicates": {
+			  "minecraft:custom_data": {
+			    "chaoticpotato_item": {}
+			  }
+			}
+          }
+        ]
+	  }
+	}
+  },
+  "requirements": [
+    [
+	  "get_item"
+	]
+  ]
+}

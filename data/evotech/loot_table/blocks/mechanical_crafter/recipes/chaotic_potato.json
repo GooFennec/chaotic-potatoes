@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/chaotic_potato",
+		  "functions": [
+			{
+			  "function": "minecraft:set_custom_data",
+			  "tag": "{chaoticpotato_cmd:{disable:1b,wipe:1b}}"
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 4,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

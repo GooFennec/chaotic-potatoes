@@ -1,0 +1,2986 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/fox"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/iron_door/_m"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/glowing"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/davidson"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/poison"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/fake_tnt"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/primed_tnt"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/smite"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/killer_rabbit"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/firework_blast"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/hunger"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/luck"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/harming_shower"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/potted_dead_bush"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/daylight_glitch"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/guardian"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/bell"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/spinny"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/bamboozler"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/positive_flower"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/chest/empty"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/falling_brick"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/destroyed/blast_furnace"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/discoball"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/bamboo_tree/_m"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/the_slap"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/fake_nuke"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/real_nuke"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/experience_jebait"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/hero_of_the_village"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/fluffy"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/oak_boat"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/armor_theft"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/pearl_shower"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/magical_salmon"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/speed"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/mining_fatigue"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/evoker_fangs"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/fake_block/emerald_block"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/lonely_skeleton"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/pit_fall"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/fling"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/lucy"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/glitch_fish"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/safety_milk"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/weakness"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/arrow_rain"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/the_bees"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/destroyed/ender_chest"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/fake_block/diamond_block"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/apple"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/cake"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/ore_blob"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/sheariously"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/swammies"
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:value_check",
+			  "value": {
+			    "type": "score",
+				"target": {
+				  "type": "fixed",
+				  "name": "$evotech"
+				},
+				"score": "cp.addons"
+			  },
+			  "range": 1
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/tipped_arrow"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/candle"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/slenderman"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/duplicate"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/baked_potato"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/disconnect"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/bad_omen"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/rat"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/destroyed/piston"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "structure/pyramid"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/overdose_arrow"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/the_perfect_trade"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/pufferfish"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/fedora"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/isidon"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/vex"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/lottery"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/invisibility"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/lava"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/you_egg"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/piglin_brute"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/suspicious_cookie"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/chest/starter"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/cold_one"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/disenchant"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/nausea"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/suspicious_stew"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/potted_wither_rose"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/performance_creeper"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/sculkification"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/tainted_regeneration"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/warping_tnt"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/trial_key"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/ghast"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/sign/blame"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/hawkminar"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/golden_apple"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/vindicated"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/zoglin"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/oceloot"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/enchanted_golden_carrot"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/location_tnt"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/wind_charge"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/destroyed/decorated_pot"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/dice"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/chest/meme"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/cave_spider"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/ice"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/the_jiggle"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/enchanted_book"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/useless_lever"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/bullet_time"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/pufferfish_rain"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/prickily"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/buried/_m"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/sand"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/bed"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/end_crystal"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/sign/scammed"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/barrel"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/sign/banned"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/stanley_bucket"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/doppelganger"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/trident"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/infested"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/squid"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/endermite"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/chest/trapped"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "block/chest/mimic"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/elytra"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/shulker"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/uncraftable_potion"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/breeze"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/blaze"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/unluck"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/soul_drain"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/destroyed/crafter"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/creaking"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/stablized_pearl"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "effect/levitation"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "event/boxed_in"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "structure/trial_spawner"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/pegasus"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "entity/pigasus"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/confeggi"
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "quality": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "item/uncertainty"
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:fire_resistance"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:harming"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:healing"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:infested"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:invisibility"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:leaping"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:luck"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:night_vision"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:oozing"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:poison"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:regeneration"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:slow_falling"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:slowness"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:swiftness"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:turtle_master"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:water_breathing"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:weakness"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:weaving"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:tipped_arrow",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:potion_contents": {
+				  "potion": "minecraft:wind_charged"
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

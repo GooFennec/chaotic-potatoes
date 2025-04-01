@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "evotech:give/swammies",
+		  "functions": [
+			{
+			  "function": "minecraft:set_custom_data",
+			  "tag": "{chaoticpotato_cmd:{wipe:1b,pickup:20,motion:[0.0,0.2,0.0],name:1b}}"
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

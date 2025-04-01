@@ -1,0 +1,551 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "absorption",
+					"duration": 90,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:absorption": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "conduit_power",
+					"duration": 90,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:conduit_power": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "dolphins_grace",
+					"duration": 90,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:dolphins_grace": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "fire_resistance",
+					"duration": 90,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:fire_resistance": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "haste",
+					"duration": 90,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:haste": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "hero_of_the_village",
+					"duration": 60,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:hero_of_the_village": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "invisibility",
+					"duration": 90,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:invisibility": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "jump_boost",
+					"duration": 90,
+					"amplifier": 1
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:jump_boost": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "luck",
+					"duration": 120,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:luck": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "night_vision",
+					"duration": 90,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:night_vision": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "regeneration",
+					"duration": 90,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:regeneration": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "resistance",
+					"duration": 60,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:resistance": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "speed",
+					"duration": 90,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:speed": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "strength",
+					"duration": 60,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:strength": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "effect": "water_breathing",
+					"duration": 120,
+					"amplifier": 0
+				  }
+				}
+			  }
+			}
+		  ],
+		  "conditions": [
+		    {
+			  "condition": "minecraft:inverted",
+			  "term": {
+			    "condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "effects": {
+				    "minecraft:water_breathing": {}
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

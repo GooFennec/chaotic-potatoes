@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:map",
+		  "weight": 1,
+		  "functions": [
+		    {
+			  "function": "minecraft:exploration_map",
+			  "destination": "ancient_city",
+			  "decoration": "banner_cyan",
+			  "zoom": 2,
+			  "search_radius": 100,
+			  "skip_existing_chunks": true
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

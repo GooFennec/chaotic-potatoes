@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/allium",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/azure_bluet",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/blue_orchid",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/cornflower",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/dandelion",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/lily_of_the_valley",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/orange_tulip",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/oxeye_daisy",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/pink_petals",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/pink_tulip",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/poppy",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/red_tulip",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/white_tulip",
+		  "weight": 5
+		},
+		{
+		  "type": "minecraft:loot_table",
+		  "value": "chaoticpotato:give/positive_flower/wither_rose",
+		  "weight": 2
+		}
+      ]
+    }
+  ]
+}

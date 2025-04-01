@@ -1,0 +1,2 @@
+## chaotic_potato - open/entries - event/lottery
+summon minecraft:item_display ~ ~ ~ {Tags:["cp.e.lottery","cp.setup"],billboard:"vertical",brightness:{block:15,sky:15},shadow_radius:0.0f,shadow_strength:0.0f,view_range:2.0,item_display:"none",item:{id:"minecraft:stone",count:1}}

@@ -1,0 +1,7 @@
+## chaotic_potato - open/entries - entity/vex
+summon minecraft:vex ~ ~ ~ {LifeTicks:800,attributes:[{id:"minecraft:max_health",base:20.0d}],HandItems:[{id:"minecraft:wooden_axe",count:1,components:{"minecraft:custom_data":{chaoticpotato_item:{rating:-1b}},"minecraft:unbreakable":{}}},{}],Health:20.0f,DeathLootTable:"minecraft:empty",HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],PersistenceRequired:1b}
+summon minecraft:vex ~ ~ ~ {LifeTicks:800,attributes:[{id:"minecraft:max_health",base:20.0d}],HandItems:[{id:"minecraft:wooden_axe",count:1,components:{"minecraft:custom_data":{chaoticpotato_item:{rating:-1b}},"minecraft:unbreakable":{}}},{}],Health:20.0f,DeathLootTable:"minecraft:empty",HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],PersistenceRequired:1b}
+summon minecraft:vex ~ ~ ~ {LifeTicks:800,attributes:[{id:"minecraft:max_health",base:20.0d}],HandItems:[{id:"minecraft:wooden_axe",count:1,components:{"minecraft:custom_data":{chaoticpotato_item:{rating:-1b}},"minecraft:unbreakable":{}}},{}],Health:20.0f,DeathLootTable:"minecraft:empty",HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],PersistenceRequired:1b}
+execute positioned ~ ~0.2 ~ run particle minecraft:cloud ~ ~ ~ 0.15 0.15 0.15 0.05 9
+playsound minecraft:entity.evoker.prepare_summon neutral @a ~ ~ ~ 2.0 1.2
+playsound minecraft:entity.lightning_bolt.thunder neutral @a ~ ~ ~ 2.0 1.5

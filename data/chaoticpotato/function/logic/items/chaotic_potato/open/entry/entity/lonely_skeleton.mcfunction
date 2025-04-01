@@ -1,0 +1,5 @@
+## chaotic_potato - open/entries - entity/lonely_skeleton
+summon minecraft:skeleton ~ ~ ~ {CustomName:'[{"text":"Lonely Skeleton","color":"yellow"}]',CustomNameVisible:1b,attributes:[{id:"minecraft:max_health",base:0.5d},{id:"minecraft:attack_damage",base:0.0d}],HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:stone_button",count:1,components:{"minecraft:custom_data":{chaoticpotato_item:{rating:-1b}},"minecraft:unbreakable":{}}}],Health:0.5f,DeathLootTable:"minecraft:empty",HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],PersistenceRequired:1b}
+execute positioned ~ ~1.1 ~ run particle minecraft:cloud ~ ~ ~ 0.15 0.4 0.15 0.07 20
+playsound minecraft:entity.evoker.prepare_summon neutral @a ~ ~ ~ 2.0 1.2
+playsound minecraft:entity.lightning_bolt.thunder neutral @a ~ ~ ~ 2.0 1.5

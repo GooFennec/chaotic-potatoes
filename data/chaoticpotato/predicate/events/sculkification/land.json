@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+	  "vehicle": {
+	    "type": "minecraft:snowball",
+	    "nbt": "{Tags:[\"cp.e.sculkification\",\"cp.d.egg\"]}"
+	  }
+	}
+  }
+}

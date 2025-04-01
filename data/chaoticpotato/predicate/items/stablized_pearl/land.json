@@ -1,0 +1,15 @@
+[
+  {
+	"condition": "minecraft:inverted",
+	"term": {
+	  "condition": "minecraft:entity_properties",
+	  "entity": "this",
+	  "predicate": {
+		"vehicle": {
+		  "type": "minecraft:ender_pearl",
+		  "nbt": "{Tags:[\"cp.e.stablized_pearl\",\"cp.d.pearl\"]}"
+		}
+	  }
+	}
+  }
+]

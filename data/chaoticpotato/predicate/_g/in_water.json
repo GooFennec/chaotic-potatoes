@@ -1,0 +1,24 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+	  "condition": "minecraft:location_check",
+	  "predicate": {
+	    "block": {
+		  "blocks": "#chaoticpotato:_g/is_waterlog"
+		}
+	  }
+	},
+	{
+	  "condition": "minecraft:location_check",
+	  "predicate": {
+	    "block": {
+		  "blocks": "#chaoticpotato:_g/can_waterlog",
+		  "state": {
+		    "waterlogged": "true"
+		  }
+		}
+	  }
+	}
+  ]
+}

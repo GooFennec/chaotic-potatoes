@@ -1,0 +1,46 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+	  "condition": "minecraft:inverted",
+	  "term": {
+	    "condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+		  "slots": {
+		    "contents": {
+			  "predicates": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "id": "dice"
+				  }
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	},
+    {
+	  "condition": "minecraft:entity_properties",
+	  "entity": "this",
+	  "predicate": {
+	    "slots": {
+		  "contents": {
+		    "components": {
+			  "minecraft:profile": {
+			    "id": [-167300817,-733655795,-1674084878,-529720080],
+				"properties": [
+				  {
+				    "name": "textures",
+					"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE1ZjdjMzEzYmNhOWMyZjk1OGU2OGFiMTRhYjM5Mzg2N2Q2NzUwM2FmZmZmOGYyMGNiMTNmYmU5MTdmZDMxIn19fQ=="
+				  }
+				]
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  ]
+}

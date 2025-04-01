@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "predicate": {
+    "effects": {
+      "dolphins_grace": {
+	    "duration": -1
+	  }
+    }
+  },
+  "entity": "this"
+}

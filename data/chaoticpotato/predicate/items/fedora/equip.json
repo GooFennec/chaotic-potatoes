@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+	  "head": {
+		"items": [
+		  "minecraft:leather_helmet"
+		],
+		"predicates": {
+		  "minecraft:custom_data": {
+		    "chaoticpotato_item": {
+			  "id": "fedora"
+			}
+		  }
+		}
+	  }
+	}
+  }
+}

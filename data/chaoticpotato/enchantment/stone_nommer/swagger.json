@@ -1,0 +1,60 @@
+{
+  "description": [
+    {"text":"Stone Nommer","color":"yellow"}
+  ],
+  "max_level": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": [
+    "minecraft:efficiency",
+	  "minecraft:unbreaking"
+  ],
+  "supported_items": [
+    "minecraft:wooden_pickaxe"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+	    "id": "chaoticpotato.stone_nommer.efficiency",
+		"attribute": "minecraft:mining_efficiency",
+		"operation": "add_value",
+		"amount": {
+		  "type": "minecraft:linear",
+		  "base": 9999,
+		  "per_level_above_first": 0
+		}
+	  }
+    ],
+	"minecraft:item_damage": [
+	  {
+	    "effect": {
+		  "type": "minecraft:remove_binomial",
+		  "chance": {
+		    "type": "minecraft:fraction",
+            "denominator": {
+              "type": "minecraft:linear",
+              "base": 10.0,
+              "per_level_above_first": 0.0
+            },
+            "numerator": {
+              "type": "minecraft:linear",
+              "base": 1.0,
+              "per_level_above_first": 0.0
+            }
+		  }
+		}
+	  }
+	]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "weight": 1
+}

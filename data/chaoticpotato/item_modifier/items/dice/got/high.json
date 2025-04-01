@@ -1,0 +1,11 @@
+[
+  {
+    "function": "minecraft:set_lore",
+	"entity": "this",
+    "mode": "insert",
+	"offset": 0,
+	"lore": [
+	  [{"text":"> ","color":"white","italic":false},{"score":{"objective":"cp.dataB","name":"@s"},"color":"gold"},{"text":" <","color":"white"}]
+	]
+  }
+]

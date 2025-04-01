@@ -1,0 +1,2 @@
+## stablized_pearl - main
+execute as @e[type=minecraft:area_effect_cloud,tag=cp.e.stablized_pearl,tag=cp.d.logic] at @s if predicate chaoticpotato:items/stablized_pearl/land run function chaoticpotato:logic/entities/stablized_pearl/land/_m

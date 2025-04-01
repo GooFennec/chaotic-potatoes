@@ -1,0 +1,56 @@
+## pyramid - a8
+# build
+execute positioned ~6 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~5 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~4 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~3 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~2 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~1 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~ ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-1 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-2 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-3 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-4 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-5 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~5 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~5 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~4 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~4 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~3 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~3 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~2 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~2 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~1 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~1 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~ unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~ unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~-1 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~-1 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~-2 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~-2 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~-3 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~-3 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~-4 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~-4 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~-5 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~-5 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~6 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~5 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~4 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~3 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~2 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~1 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~ ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-1 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-2 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-3 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-4 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-5 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~-6 ~ ~-6 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:sandstone destroy
+execute positioned ~2 ~ ~2 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:cut_sandstone destroy
+execute positioned ~-2 ~ ~2 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:cut_sandstone destroy
+execute positioned ~2 ~ ~-2 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:cut_sandstone destroy
+execute positioned ~-2 ~ ~-2 unless block ~ ~ ~ #chaoticpotato:_g/indestructibles run setblock ~ ~ ~ minecraft:cut_sandstone destroy
+# visuals / sounds
+playsound minecraft:block.piston.extend neutral @a ~ ~ ~ 2.0 1.5

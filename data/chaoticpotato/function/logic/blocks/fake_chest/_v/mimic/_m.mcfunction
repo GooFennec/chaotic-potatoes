@@ -1,0 +1,3 @@
+## fake_chest - mimic/main
+execute as @e[type=minecraft:marker,tag=cp.b.fake_chest,tag=cp.d.mimic] at @s unless block ~ ~ ~ minecraft:chest run function chaoticpotato:logic/blocks/fake_chest/_v/mimic/open
+execute as @e[type=minecraft:marker,tag=cp.b.fake_chest,tag=cp.d.mimic] at @s if block ~ ~ ~ minecraft:chest unless data block ~ ~ ~ LootTable run function chaoticpotato:logic/blocks/fake_chest/_v/mimic/open

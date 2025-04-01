@@ -1,0 +1,2 @@
+## dice - s/s0 - main
+execute as @e[type=minecraft:interaction,tag=cp.e.dice,tag=cp.d.interact] if predicate chaoticpotato:_g/use_interaction at @s as @n[type=minecraft:item_display,tag=cp.e.dice,scores={cp.stage=0}] at @s run function chaoticpotato:logic/events/dice/_s/s0/switch

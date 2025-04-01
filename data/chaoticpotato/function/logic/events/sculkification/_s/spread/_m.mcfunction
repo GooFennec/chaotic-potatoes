@@ -1,0 +1,3 @@
+## sculkification - s/spread - main
+execute as @e[type=minecraft:armor_stand,tag=cp.e.sculkification,tag=cp.d.block,scores={cp.stage=1}] at @s unless block ~ ~ ~ #chaoticpotato:events/sculkification/catalysts run function chaoticpotato:logic/events/sculkification/_p/despawn
+execute as @e[type=minecraft:armor_stand,tag=cp.e.sculkification,tag=cp.d.block,scores={cp.stage=1}] at @s unless data block ~ ~ ~ cursors[0] run function chaoticpotato:logic/events/sculkification/_s/spread/convert

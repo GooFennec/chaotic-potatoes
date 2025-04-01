@@ -1,0 +1,140 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4.0,
+        "max": 7.0
+      },
+	  "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 3.0
+              },
+			  "add": false
+            }
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 7.0,
+                "max": 14.0
+              },
+			  "add": false
+            }
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+			  "add": false
+            }
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 5.0
+              },
+			  "add": false
+            }
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:brown_dye",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1.0
+              },
+			  "add": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "chaoticpotato:give/meme/bruh_stick"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "chaoticpotato:give/meme/dwight_beet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "chaoticpotato:give/meme/hawk_favorite_item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "chaoticpotato:give/meme/judy_hopp_carrot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "chaoticpotato:give/meme/kick_hider_pearl"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "chaoticpotato:give/meme/pondering_orb"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "chaoticpotato:give/meme/red_among_us"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "chaoticpotato:give/meme/the_god_fungus"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "chaoticpotato:give/meme/the_green"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "chaoticpotato:give/meme/you_egg"
+        }
+      ]
+    }
+  ]
+}

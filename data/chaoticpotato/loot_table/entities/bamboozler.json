@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+	    {
+		  "type": "minecraft:item",
+		  "name": "minecraft:emerald",
+		  "weight": 20,
+		  "quality": 2,
+		  "functions": [
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+			    "type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:bamboo",
+		  "weight": 30,
+		  "quality": -2,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_count",
+			  "count": {
+			    "type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 5.0
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:potion",
+		  "weight": 7,
+		  "quality": 1,
+		  "functions": [
+			{
+			  "function": "minecraft:set_potion",
+			  "id": "minecraft:invisibility"
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+			    "type": "minecraft:constant",
+				"value": 1
+			  }
+			}
+		  ]
+		}
+	  ]
+	}
+  ]
+}

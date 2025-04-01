@@ -1,0 +1,543 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 70,
+		  "quality": -18,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:coal_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 30,
+		  "quality": -10,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:deepslate_coal_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 60,
+		  "quality": -18,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:copper_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 20,
+		  "quality": -8,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:deepslate_copper_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 60,
+		  "quality": -10,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:iron_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 20,
+		  "quality": -7,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:deepslate_iron_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 54,
+		  "quality": -5,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:gold_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 24,
+		  "quality": -4,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:deepslate_gold_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 35,
+		  "quality": -2,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:lapis_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 10,
+		  "quality": 0,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:deepslate_lapis_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 5,
+		  "quality": 3,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:redstone_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 44,
+		  "quality": -7,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:deepslate_redstone_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 14,
+		  "quality": 4,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:emerald_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 5,
+		  "quality": 4,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:deepslate_emerald_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 4,
+		  "quality": 5,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:diamond_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 12,
+		  "quality": 5,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:deepslate_diamond_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 25,
+		  "quality": -6,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:nether_quartz_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 17,
+		  "quality": 0,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:nether_gold_ore"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:clay",
+		  "weight": 2,
+		  "quality": 8,
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": -1
+				  },
+				  "chaoticpotato_data": {
+				    "call": "minecraft:ancient_debris"
+				  }
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

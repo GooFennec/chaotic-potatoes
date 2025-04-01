@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#chaoticpotato:_g/peaceful",
+    "#chaoticpotato:_g/neutral",
+    "#chaoticpotato:_g/hostile",
+    "minecraft:giant",
+    "minecraft:player"
+  ]
+}

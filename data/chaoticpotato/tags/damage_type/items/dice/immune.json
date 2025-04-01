@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cactus",
+    "minecraft:explosion",
+    "minecraft:falling_anvil",
+    "minecraft:lava",
+    "minecraft:in_fire",
+    "minecraft:on_fire"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:arrows",
+    "minecraft:egg",
+    "minecraft:ender_pearl",
+    "minecraft:experience_bottle",
+    "minecraft:potion",
+    "minecraft:shulker_bullet",
+    "minecraft:snowball",
+    "minecraft:trident",
+    "minecraft:wind_charge"
+  ]
+}

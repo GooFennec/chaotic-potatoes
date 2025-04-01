@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:potato",
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": 1,
+					"id": "isidon"
+				  }
+				},
+				"minecraft:max_stack_size": 64,
+				"minecraft:rarity": "common"
+			  }
+			},
+			{
+			  "function": "minecraft:set_name",
+			  "entity": "this",
+			  "target": "item_name",
+			  "name": [
+			    [{"text":"Isídon","color":"white","italic":false}]
+			  ]
+			},
+			{
+			  "function": "minecraft:set_lore",
+			  "entity": "this",
+			  "mode": "replace_all",
+			  "lore": [
+			    [{"text":"\"I am an anime protagonist.\"","color":"gray","italic":false}]
+			  ]
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

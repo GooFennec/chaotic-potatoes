@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:potion",
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": 1,
+					"id": "cold_one"
+				  }
+				},
+				"minecraft:potion_contents": {
+				  "custom_color": 7660799
+				},
+				"minecraft:hide_additional_tooltip": {},
+				"minecraft:max_stack_size": 1,
+				"minecraft:rarity": "common"
+			  }
+			},
+			{
+			  "function": "minecraft:set_name",
+			  "entity": "this",
+			  "target": "item_name",
+			  "name": [
+			    [{"text":"Cold One","color":"white","italic":false}]
+			  ]
+			},
+			{
+			  "function": "minecraft:set_name",
+			  "entity": "this",
+			  "target": "custom_name",
+			  "name": [
+			    [{"text":"Cold One","color":"white","italic":false}]
+			  ]
+			},
+			{
+			  "function": "minecraft:set_lore",
+			  "entity": "this",
+			  "mode": "replace_all",
+			  "lore": [
+			    [{"text":"For the boizz.","color":"gray","italic":false}]
+			  ]
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

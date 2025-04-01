@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:red_mushroom",
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": 1,
+					"id": "the_god_fungus"
+				  }
+				},
+				"minecraft:max_stack_size": 64,
+				"minecraft:rarity": "common"
+			  }
+			},
+			{
+			  "function": "minecraft:set_name",
+			  "entity": "this",
+			  "target": "item_name",
+			  "name": [
+			    [{"text":"The God Fungus","color":"white","italic":false}]
+			  ]
+			},
+			{
+			  "function": "minecraft:set_lore",
+			  "entity": "this",
+			  "mode": "replace_all",
+			  "lore": [
+			    [{"text":"He's quite the fun-guy.","color":"gray","italic":false}]
+			  ]
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

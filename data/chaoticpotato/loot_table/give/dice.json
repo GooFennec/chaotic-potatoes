@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:player_head",
+		  "functions": [
+		    {
+			  "function": "minecraft:reference",
+			  "name": "chaoticpotato:items/dice/data"
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

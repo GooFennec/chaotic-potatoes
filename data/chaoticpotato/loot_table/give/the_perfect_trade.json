@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1.0,
+	  "bonus_rolls": 0.0,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:wooden_sword",
+		  "functions": [
+		    {
+			  "function": "minecraft:set_components",
+			  "components": {
+			    "minecraft:custom_data": {
+				  "chaoticpotato_item": {
+				    "rating": 1,
+					"id": "the_perfect_trade"
+				  }
+				},
+				"minecraft:attribute_modifiers": {
+				  "modifiers": [
+				    {
+					  "type": "minecraft:attack_damage",
+					  "id": "minecraft:base_attack_damage",
+					  "amount": 0.0,
+					  "operation": "add_value",
+					  "slot": "mainhand"
+					},
+					{
+					  "type": "minecraft:attack_speed",
+					  "id": "minecraft:base_attack_speed",
+					  "amount": -2.4000000953674316,
+					  "operation": "add_value",
+					  "slot": "mainhand"
+					}
+				  ],
+				  "show_in_tooltip": false
+				},
+				"minecraft:damage": 0,
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:hide_additional_tooltip": {},
+				"minecraft:max_damage": 10,
+				"minecraft:max_stack_size": 1,
+				"minecraft:rarity": "uncommon",
+				"minecraft:repair_cost": 9999,
+				"minecraft:unbreakable": {
+				  "show_in_tooltip": false
+				}
+			  }
+			},
+			{
+			  "function": "minecraft:set_name",
+			  "entity": "this",
+			  "target": "item_name",
+			  "name": [
+			    [{"text":"The Perfect Trade","color":"yellow","italic":false}]
+			  ]
+			},
+			{
+			  "function": "minecraft:set_lore",
+			  "entity": "this",
+			  "mode": "replace_all",
+			  "lore": [
+			    [{"text":"A soul for a soul.","color":"gray","italic":false}]
+			  ]
+			},
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"value": 1,
+			    "type": "minecraft:constant"
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}
